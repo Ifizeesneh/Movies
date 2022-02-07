@@ -1,0 +1,45 @@
+.user {
+    padding: 1rem 2rem;
+
+    h1 {
+        color: rgb(33, 33, 146);
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .postlist {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+       background: #000;
+       
+
+        .post {
+            margin: 10px auto;
+            padding: 1rem;
+            box-shadow: 2px 4px 10px rgb(161, 161, 161);
+            height: 60vh;
+            
+        
+            h3 {
+                color: #ffffff;
+                margin-bottom: 10px;
+                font-size: 22px;
+            }
+            p {
+                
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+   .user{
+    .postlist {
+        display: flex;
+        flex-direction: column;
+    }
+   }
+   
+   
+}
